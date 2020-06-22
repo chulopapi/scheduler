@@ -1,4 +1,3 @@
-//console.log("hello world");
 
 /* This is the javascript program for a Work Daily Scheduler*
 Written by Marlon Guandique */
@@ -7,7 +6,7 @@ Written by Marlon Guandique */
 var dateToday = moment().format(`ddd, ll`);
 $("#currentDay").append(dateToday);
 
-//audit current time
+//audit current time 
 var auditTask = function () {
     for (let i = 0; i < 24; i++) {
         const $div = $("div#" + i);
@@ -63,11 +62,8 @@ console.log("hello world");
 });
 
 //value text is changed
-
 $("textarea").on("change", "input[type='text']", function () {
 });
-
-
 
 //helpers functions
 

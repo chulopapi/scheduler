@@ -14,8 +14,6 @@ USER STORY: There is a need to create a schedule to be used as a daily planner.
 
 Acceptance Criteria:
 
-The following points are used to displayed key required factors used as an accepted criteria to have a succesful deployed application.
-
 1. When I am ready to start planning my day, the first webpage provides a displayed schedule to be used a the daily planner from 9:00AM to 5:00PM.  The current day is displayed at the top of the calendar as requested.
 
 The following image shows the work day scheduler with a grayed color during the business hour times.  It was asked to have a gray color background once the events are in the past.  This is about 6:00PM:
