@@ -41,29 +41,33 @@ setInterval(function () {
     auditTask();
 }, 1800000);
 
+//save tasks in jQuery
+$(".saveBtn").click(function (event) {
 
-var buttonClicked = $(event.target).attr('data-name');
-var taskTime = buttonClicked;
-var taskDescription = $("#text-area-" + buttonClicked).val().trim();
-console.log(taskTime);
-console.log(taskDescription);
 
-var task = {
-    id: taskTime,
-    taskDescription: taskDescription
-};
+console.log("hello world");
 
-saveTasks(task);
+    var buttonClicked = $(event.target).attr('data-name');
+    var taskTime = buttonClicked;
+    var taskDescription = $("#text-area-" + buttonClicked).val().trim();
+    console.log(taskTime);
+    console.log(taskDescription);
 
+    var task = {
+        id: taskTime,
+        taskDescription: taskDescription
+    };
+
+//saveTasks(task); *//
+
+});
 
 //value text is changed
 
 $("textarea").on("change", "input[type='text']", function () {
 });
 
-//save tasks in jQuery
-$(".saveBtn").click(function (event) {
-});
+
 
 //helpers functions
 
